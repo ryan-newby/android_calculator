@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <Button
+        android:id="@+id/button_modulus"
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="165dp"
+        android:layout_marginBottom="260dp"
+        android:text="@string/modulus" />
+
+    <Button
+        android:id="@+id/button_divide"
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="320dp"
+        android:text="@string/divide" />
+
+    <Button
+        android:id="@+id/button_multiply"
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="230dp"
+        android:layout_marginBottom="320dp"
+        android:text="@string/multiply" />
+
+    <Button
+        android:id="@+id/button_subtract"
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="380dp"
+        android:text="@string/subtract" />
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="230dp"
+        android:layout_marginBottom="380dp"
+        android:text="@string/add" />
+
+    <EditText
+        android:id="@+id/editText_num2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="506dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editText_num1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="585dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="" />
+</RelativeLayout>
